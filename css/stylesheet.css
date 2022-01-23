@@ -1,67 +1,75 @@
 
-head {
-    margin: 0;
-}
-body {
-    background-color: ffffff;
-    margin: 0;
-}
-p, a {
-    font-family: cursive;
-    color: white;
+html{
+    color: #264653;
 }
 
-h1, h2, h3 {
-    font-family: cursive;
-    color: F0A500;
-}
-
-hr {
-    border-style: solid;
-    border-color: 082032;
-    border-width: 2px;
-    width: 80%;
-}
-
-img {
-    border-style: solid;
-    border-width: 2px;
-    border-color: 082032;
+nav{
+    float: left;
+    width: 70%;
+    margin: 5em 3em 0 0;
     
 }
 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
 
-
-
-a:link {
+nav li{
+    display: inline-block;
+    font-size: 1.75em;
+}
+nav li a{
+    display: block;
+    color: #264653;
+    text-align: center;
+    padding: 0.5em 1em;
     text-decoration: none;
+
 }
 
-.Div1 {
-    
-    align-content: center;
-    margin: 0;
-    background-color: 000000;
-    border-style: solid;
-    border-color: F0A500;
-    border-width: 3px;
-    
+header{
+    float: left;
+    width: 25%;
+}
+
+main{
+    background-color: #e9c46a;
+    clear: left;
+    padding: 2%;
+    font-size: 1.25em;
     
 }
 
-.Div2 {
-    padding: 20;
-}
-h3, p {
-    padding: 20;
-}
-.Buttons {
-    font-size: 30;
+h1{
+    
+    text-align: center;
 }
 
-#HR002 {
-    width: 60%;
+#container{
+    width: 80%;
+    margin: 0 auto;
 }
-table {
-    align-content: center;
+
+a:hover{
+    color: #2a9d8f;
+}
+
+img{
+    max-width: 100%;
+    
+    display: block;
+    border-color: #e76f51;
+    border-style: double;
+    border-radius: 10px;
+}
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 1em;
+}
+
+body{
+    background-color: #e9c46a;
 }
